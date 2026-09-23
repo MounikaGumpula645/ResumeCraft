@@ -1,0 +1,39 @@
+.resume-template.modern {
+  font-family: Arial, sans-serif;
+  background-color: var(--surface-color);
+  display: flex;
+  color: var(--text-color);
+}
+
+.modern .header {
+  flex-basis: 30%;
+  background-color: #334455;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+}
+
+.modern .header h1 {
+  font-size: 1.8rem;
+}
+
+.modern .header .contact {
+  font-size: 0.8rem;
+}
+
+.modern .content {
+  flex-basis: 70%;
+  padding: 1rem;
+}
+
+.modern .title {
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  color: var(--accent-color);
+}
+
+.modern .content h3 {
+  color: var(--text-color);
+  margin-top: 1.5rem;
+}

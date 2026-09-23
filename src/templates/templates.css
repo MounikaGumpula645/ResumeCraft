@@ -1,0 +1,71 @@
+.resume-template {
+  padding: 1rem;
+  border: 1px solid #ddd;
+  min-height: 500px;
+}
+
+.professional {
+  font-family: 'Times New Roman', serif;
+  background-color: #c0c4d7;
+}
+
+.professional h1 {
+  text-align: center;
+  margin-bottom: 0.25rem;
+}
+
+.professional .title {
+  text-align: center;
+  font-style: italic;
+  font-size: 1.1rem;
+}
+
+.professional .contact {
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+.professional .section h3 {
+  border-bottom: 1px solid #000;
+  padding-bottom: 0.25rem;
+  margin-top: 1.5rem;
+}
+
+.modern {
+  font-family: Arial, sans-serif;
+  background-color: #f0f4f8;
+  display: flex;
+}
+
+.modern .header {
+  flex-basis: 30%;
+  background-color: #334455;
+  color: #ffffff;
+  padding: 1rem;
+  text-align: center;
+}
+
+.modern .header h1 {
+  font-size: 1.8rem;
+}
+
+.modern .header .contact {
+  font-size: 0.8rem;
+}
+
+.modern .content {
+  flex-basis: 70%;
+  padding: 1rem;
+}
+
+.modern .title {
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  color: #334455;
+}
+
+.modern .content h3 {
+  color: #555;
+  margin-top: 1.5rem;
+}

@@ -1,0 +1,34 @@
+.live-preview-fullscreen {
+  position: relative;
+  width: 100%;
+  padding: 2rem;
+  box-sizing: border-box;
+}
+
+#resume-preview-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.back-button, .download-button {
+  position: fixed;
+  top: 20px;
+  background-color: #3498db;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.back-button {
+  left: 20px;
+}
+
+.download-button {
+  right: 20px;
+}

@@ -1,0 +1,103 @@
+.resume-template.creative {
+  display: flex;
+  font-family: Arial, sans-serif;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  min-height: 800px;
+}
+
+.creative .left-column {
+  flex-basis: 35%;
+  background-color: #f0f0f0; /* Light gray background */
+  color: #333; /* Dark text for contrast */
+  padding: 2rem;
+  text-align: center;
+}
+
+.creative .right-column {
+  flex-basis: 65%;
+  padding: 2rem;
+  color: #333;
+}
+
+.creative .photo-upload-area {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  margin: 0 auto 2rem;
+  border-radius: 50%;
+  background-color: #ccc;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border: 3px solid #ccc;
+}
+
+.creative .photo-input {
+  display: none;
+}
+
+.creative .photo-label {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.creative .profile-photo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.creative .plus-icon {
+  font-size: 3rem;
+  color: #999;
+}
+
+.creative h1 {
+  color: #dbd2c4;
+  font-size: 2.5rem;
+  margin: 0;
+}
+
+.creative .title {
+  color: #7f8c8d;
+  font-size: 1.2rem;
+  margin-top: 0.5rem;
+  border-bottom: 2px solid #bdc3c7;
+  padding-bottom: 1rem;
+}
+
+.creative h3 {
+  font-size: 1.5rem;
+  color: #76726a;
+  margin-top: 2rem;
+  border-bottom: 2px solid #bdc3c7;
+  padding-bottom: 0.5rem;
+}
+
+.creative .left-column h3 {
+  color: #333;
+  border-bottom: 2px solid #b4a894;
+}
+
+.creative p {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.creative .contact-section p span {
+  font-size: 1.2rem;
+  margin-right: 10px;
+}
+
+.creative .education-item,
+.creative .experience-item {
+  margin-bottom: 1rem;
+}
